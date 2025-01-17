@@ -2,8 +2,7 @@ package sample;
 
 public class Employee {
     private String  name;
-    private int  id;
-    private double  salary;
+    private int  salary;
     
     public String getName() {
         return name;
@@ -11,18 +10,14 @@ public class Employee {
     public void setName(String name) {
         this.name = name;
     }
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public double getSalary() {
+    public int getSalary() {
         return salary;
     }
-    public void setSalary(double salary) {
+    public void setSalary(int salary) {
         this.salary = salary;
     }
+    
+    
 
     
 
